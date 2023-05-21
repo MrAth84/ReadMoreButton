@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 360px;
+    min-height: 120px;
+    border: 1px black solid;
+    border-radius: 25px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+#wrapper button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    padding: 0;
+    display: block;
+    margin: auto;
+}
+
+#wrapper button:hover {
+    color: dimgray;
+    cursor: pointer;
+}
+
+#hidden {
+    display: none;
+}
+
+#hidden.show {
+    display: block;
+}
